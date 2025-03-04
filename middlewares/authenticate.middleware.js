@@ -19,15 +19,18 @@ const authenticate = async (req, res, next) => {
     }
     
     jwt.verify(Normal_Token, process.env.NORMALKEY, (err, decoded) => {
-          if (err) res.status(err).json({ message: err.message });
-          else {
-            next();
-          }
+      if (err) {
+        return res.status(401).json({ message: "Invalid or expired token" });
+    }
+    req.user = decoded; 
+    next();
     });
 
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
+
+
 
 module.exports = { authenticate }
