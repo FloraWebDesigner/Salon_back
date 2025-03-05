@@ -29,7 +29,7 @@ app.use(express.json());
 
 // --------------->>>>>>>> Default End Point <<<<<<<<-------------------
 
-app.get("/", (req, res) => res.send(`<h1 style="text-align:Center;color:purple">Welcome in Snips & Spikes API</h1>`));
+app.get("/", (req, res) => res.send(`<h1 style="text-align:Center;color:purple">Welcome in Hair & Spikes API</h1>`));
 
 
 
