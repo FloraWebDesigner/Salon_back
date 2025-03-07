@@ -15,7 +15,7 @@ const sendEmail = async (data) => {
 
   transporter.sendMail({
     to: `${data.email}`,
-    from: 'flora.jiang1990@gmail.com',
+    from: 'hairandspike@gmail.com',
     subject: `${data.subject}`,
     html: `${data.body}`,
   })
