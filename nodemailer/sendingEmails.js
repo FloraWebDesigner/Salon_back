@@ -8,7 +8,7 @@ const sendEmail = async (data) => {
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
-      user: 'flora.jiang1990@gmail.com',
+      user: 'hairandspike@gmail.com',
       pass: process.env.GOOGLEKEY
   }
   });
