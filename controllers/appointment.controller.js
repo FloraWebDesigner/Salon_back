@@ -23,7 +23,7 @@ const AppointmentPostData = async (req,res)=>{
         
         Please make sure to arrive on time for your appointment to ensure that we can provide you with the best possible service.<br>We kindly request that you notify us at least 24 hours in advance if you need to cancel or reschedule your appointment.<br>
         
-        If you have any questions or concerns, please do not hesitate to contact us at snipsandspikes@gmail.com.<br>
+        If you have any questions or concerns, please do not hesitate to contact us at hairandspikes@gmail.com.<br>
         
         We look forward to seeing you soon!<br>
         
